@@ -144,6 +144,10 @@ int32_t main() {
 
 /*
 Notes:
+so in this program the main concept is that we have to use dfs and dp table
+look we go for each child child and ask its parent that i which interation it get seleted
+so the child will definitely get selected in either in that iteration on in the next iteration
+if the the edge of node and its child occer after the node and its parent then the child will get selected in that iteration only other eise in the next iteration
 
 */
 
