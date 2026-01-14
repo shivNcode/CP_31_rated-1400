@@ -1,11 +1,6 @@
 # Ignore everything
 *
 
-# Allow folders
-!*/
-
-# Allow C++ files
+# But NOT these:
 !*.cpp
-
-# Keep this file
 !.gitignore
