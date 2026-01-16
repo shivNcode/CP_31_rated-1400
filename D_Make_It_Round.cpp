@@ -1,84 +1,3 @@
-// #include <iostream>
-// #include <vector>
-// #include <algorithm>
-// #include <deque>
-// #include <random>
-// #include <chrono>
-// #include <unordered_map>
-// #include <map>
-// #include <stack>
-// using namespace std;
-
-// #define int long long
-// #define INF (int)1e18
-
-// mt19937_64 RNG(chrono::steady_clock::now().time_since_epoch().count());
-// int pow(int a, int b) {
-//     int res = 1;
-//     while (b > 0) {
-//         if (b & 1) res *= a;
-//         a *= a;
-//         b >>= 1;
-//     }
-//     return res;
-// }
-
-
-// void Solve() {
-//     // write solution her
-//     int n , m;
-//     cin >> n >> m;
-//     int x = n*m;
-//     int dig = 0;
-//     int temp = x;
-//     while(temp){
-//         temp/=10;
-//         dig++;
-//     }
-//     dig--;
-//     //cout << x << dig << endl;
-//     while(dig>=0){
-//         //cout << "...";
-//         for(int i = 9 ; i>=1 ; i--){
-//             int val = i * pow(10 , dig);
-//             //cout << val << "." << endl;
-//             if(val<=x && val%n==0){
-//                 cout << val << endl;
-//                 return;
-//             }
-//         }
-//         dig--;
-//     }
-//     dig = 0;
-//     temp = m;
-//     while(temp){
-//         temp/=10;
-//         dig++;
-//     }
-//     dig--;
-//     int c = n * pow(10 , dig);
-//     cout << c <<endl;
-//     return;
-// }
-
-// int32_t main() {
-//     ios::sync_with_stdio(false);
-//     cin.tie(nullptr);
-
-//     int t = 1;
-//     cin >> t;
-//     while (t--) {
-//         Solve();
-//     }
-
-//     return 0;
-// }
-
-
-// /*
-// Notes:
-
-// */
 
 #include <iostream>
 #include <vector>
@@ -186,6 +105,6 @@ int32_t main() {
 
 /*
 Notes:
-
+In this question 
 */
 
