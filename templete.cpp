@@ -9,8 +9,10 @@
 #include <stack>
 using namespace std;
 
+
 #define int long long
 #define INF (int)1e18
+
 
 mt19937_64 RNG(chrono::steady_clock::now().time_since_epoch().count());
 
